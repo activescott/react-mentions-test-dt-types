@@ -1,23 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        Sooo... this is intended to test PRs to @types/react-mentions from DefinitelyTyped's 
+        <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-mentions">react-mentions folder</a>.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>See the README.md for instructions on how to test.</p>
+
       </header>
     </div>
   );

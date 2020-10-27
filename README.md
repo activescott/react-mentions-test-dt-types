@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+
+# @types/react-mentions testing
+
+This project is to test @types/react-mentions PRs. 
+
+
+## Usage 
+
+NOTE: The dependency in package.json for @types/react-mentions points to a local folder (`../DefinitelyTyped/types/react-mentions/`). You may need to update it. Below steps assume that is the local folder though...
+
+
+1. Pull the [DefinitelyTyped repo](https://github.com/DefinitelyTyped/DefinitelyTyped) to `../DefinitelyTyped/`
+    * NOTE: You may want to pull a particular PR's branch locally.
+1. Run `cp react-mentions-types-package-json/package.json ../DefinitelyTyped/types/react-mentions/`
+1. (In this repo's root) run `rm -rf node_modules/`
+1. `yarn install`
+1. `yarn test`
+
+In general run `yarn test` and make sure they pass and make sure that the files all compile without error. There should be at least 5 tests
+
+NOTE: There is a `pretest` script that also runs tsc just to force a full type check.
+
+
+# Bootstrapped with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
