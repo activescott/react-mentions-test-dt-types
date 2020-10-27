@@ -1,7 +1,7 @@
 
 # @types/react-mentions testing
 
-This project is to test @types/react-mentions PRs. 
+This project is to test @types/react-mentions PRs.
 
 
 ## Usage 
@@ -20,6 +20,8 @@ In general run `yarn test` and make sure they pass and make sure that the files 
 
 NOTE: There is a `pretest` script that also runs tsc just to force a full type check.
 
+## TODO
+- [ ] Add more tests by pulling in relevant tests from https://github.com/signavio/react-mentions
 
 # Bootstrapped with Create React App
 
